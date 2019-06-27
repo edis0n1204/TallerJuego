@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottom_sheet"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:gravity="center"
+            android:textColor="@color/dialog_title"
+            android:text="Olimpiadas Académicas"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/item_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:gravity="center"
+            android:textColor="@color/dialog_subtitle"
+            android:text="Introduzca su huella en el lector"
+            android:textSize="13dp" />
+
+        <TextView
+
+            android:id="@+id/item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_subtitle"
+            android:textColor="@color/dialog_description" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_fingerprint"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/title_view"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_fingerprint"
+        android:padding="14dp"
+        android:src="@drawable/ic_fingerprint" />
+
+
+    <TextView
+        android:id="@+id/item_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_fingerprint"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:gravity="center"
+        android:textColor="@color/dialog_status" />
+
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_status"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:paddingTop="15dp"
+        android:text="Cancelar"
+        android:onClick="cancelar"
+        android:textColor="@color/dialog_cancel_btn" />
+
+</LinearLayout>

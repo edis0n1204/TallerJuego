@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TallerJuego</string>
+    <string name="nav_perfil">Perfil</string>
+    <string name="nav_home">Principal</string>
+    <string name="nav_ranking">Ranking</string>
+
+    <string name="questions">Questions</string>
+    <string name="check">Check</string>
+    <string name="correct">Very good!</string>
+    <string name="incorrect">Incorrect...</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="prev">Previous</string>
+    <string name="results">Results</string>
+    <string name="start_over">Start Over</string>
+
+    <array name="all_questions">
+        <item>Pasar Taller?;si;con 90;*con100;no</item>
+        <item>Quien Mato al Señor Burns ;Homero;*Magui;Carl;Smithers</item>
+        <item>Vamos a Pasar Taller?;si;con 90;*con100;no</item>
+        <item>Quien es el presidente de bolivia?;Tuto Quiroga;Jaime Paz;*Evo;Jhony Fernandez;Percy
+            Fernandez
+        </item>
+
+    </array>
+
+</resources>
