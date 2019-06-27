@@ -53,6 +53,7 @@ import javax.crypto.SecretKey;
 public class LoginActivity extends AppCompatActivity{
     private EditText txtEmail;
     private EditText txtPassword;
+
     public static ProgressDialog loading;
     SharedPreferences myPreferences;
     String user;
